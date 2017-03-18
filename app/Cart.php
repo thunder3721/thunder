@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Ticket extends Model
+class Cart extends Model
 {
 	protected $table = 'tickets';
     protected $fillable = ['title', 'content', 'slug', 'status', 'user_id'];
